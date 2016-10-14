@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<configuration>
+    <betareturngeometryfix>true</betareturngeometryfix>
+    <identifylayeroption>visible</identifylayeroption>
+    <identifytolerance>5</identifytolerance>
+    <defaultzoomscale>5000</defaultzoomscale>
+    <keepidentifyactive>true</keepidentifyactive>
+    <returngeometryforzoom>true</returngeometryforzoom>
+    <enablelineselect>true</enablelineselect>
+    <enableextentselect>true</enableextentselect>
+    <enablepolyselect>true</enablepolyselect>
+    <enablemouseovergraphicsinfo>true</enablemouseovergraphicsinfo>
+    <enablemouseoverrecordinfo>true</enablemouseoverrecordinfo>
+    <usemaptime>false</usemaptime>
+    <infoautoclosemilliseconds>2000</infoautoclosemilliseconds>
+    <autoactivatedtool>mappoint</autoactivatedtool>
+    <excludebasemaps>true</excludebasemaps>
+    <disablepopuplinks>true</disablepopuplinks>
+    <linkicon>http://help.arcgis.com/en/webapps/flexviewer/live/assets/images/i_camera.png</linkicon>
+    <zoomscale>15000</zoomscale>
+    <labels>
+        <zoom2message>Click to Zoom to Point</zoom2message>
+        <identifylabel>Identify</identifylabel>
+        <resultslabel>Results</resultslabel>
+        <descriptionlabel>Use the identify tool to identify features on the map:</descriptionlabel>
+        <pointlabel>Identify by Point</pointlabel>
+        <linelabel>Identify by Polyline</linelabel>
+        <rectlabel>Identify by Rectangle</rectlabel>
+        <polylabel>Identify by Polygon</polylabel>
+        <clearlabel>Clear</clearlabel>
+        <loadinglabel>Loading...</loadinglabel>
+        <removeresultmessage>Remove Result</removeresultmessage>
+        <idfrom>Identify From</idfrom>
+        <noresultsfoundlabel>No Results Found</noresultsfoundlabel>
+        <resultsfoundlabel>Results Found</resultsfoundlabel>
+        <resulttype>Type</resulttype>
+        <resultdescription>Description</resultdescription>
+    </labels>
+    <useproxy/>
+    <layers>
+        <excludelayer name="Parcels"/>
+    </layers>
+    <symbols>
+        <simplefillsymbol color="0x448ccb" alpha="0.4" style="solid">
+            <outline color="0x448ccb" alpha="0.8" width="2"/>
+        </simplefillsymbol>
+        <simplemarkersymbol style="circle" size="12" color="0x448ccb" alpha="0.8" xoffset="0" yoffset="0" angle="0">
+            <outline style="solid" color="0xffffff" alpha="0.8" width="1"/>
+        </simplemarkersymbol>
+        <picturemarkersymbol url="assets/images/i_info.png" height="30" width="30" xoffset="0" yoffset="0"/>
+        <simplelinesymbol color="0x448ccb" alpha="0.8" width="2"/>
+    </symbols>
+</configuration>

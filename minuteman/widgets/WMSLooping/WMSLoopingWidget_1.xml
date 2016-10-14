@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<configuration>
+    <url>http://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi</url>
+    <version>1.1.1</version>
+    <imgFormat>png</imgFormat>
+    <dateFormatString>YYYY-MM-DD L:NN A</dateFormatString>
+    <layersToRotate>
+        <layer offsetMins="-50">nexrad-n0r-900913-m50m</layer>
+        <layer offsetMins="-45">nexrad-n0r-900913-m45m</layer>
+        <layer offsetMins="-40">nexrad-n0r-900913-m40m</layer>
+        <layer offsetMins="-35">nexrad-n0r-900913-m35m</layer>
+        <layer offsetMins="-30">nexrad-n0r-900913-m30m</layer>
+        <layer offsetMins="-25">nexrad-n0r-900913-m25m</layer>
+        <layer offsetMins="-20">nexrad-n0r-900913-m20m</layer>
+        <layer offsetMins="-15">nexrad-n0r-900913-m15m</layer>
+        <layer offsetMins="-10">nexrad-n0r-900913-m10m</layer>
+        <layer offsetMins="-05">nexrad-n0r-900913-m05m</layer>
+        <layer offsetMins="0">nexrad-n0r-900913</layer>
+    </layersToRotate>
+    <timerMsPerLayer>2000</timerMsPerLayer>
+    <startUpState>running</startUpState>
+    <about><![CDATA[WMS radar reflectance service courtesy of Iowa State University. Click <u><a href="http://mesonet.agron.iastate.edu/ogc/" target="_blank">here</a></u> for details.
+	]]></about>
+    <legend>
+        <visible>true</visible>
+        <imgURL>http://mesonet.agron.iastate.edu/docs/nexrad_composites/reflect_ramp.png</imgURL>
+        <imgRotationDegrees>-90</imgRotationDegrees>
+        <minLabel>min</minLabel>
+        <maxLabel>max</maxLabel>
+    </legend>
+</configuration>

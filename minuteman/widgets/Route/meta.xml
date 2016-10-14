@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" ?>
+<configuration>
+    <label>Route Widget</label>
+    <widgetversion>3.3</widgetversion>
+    <icon>assets/images/i_route.png</icon>
+    <openbydefault>true</openbydefault>
+    <description>The Route Widget is a widget that uses a ArcGIS Server network analyst route service to produce a route between stops and avoids point barriers that are places along the route.</description>
+    <helpurl>http://www.arcgis.com/home/item.html?id=992b1f691f44489aa4dcbafe2db66700</helpurl>
+</configuration>

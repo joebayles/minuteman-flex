@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<configuration>
+    <trackGroup>
+        <name>FFT</name>
+        <label>Land and Air Tracks</label>
+        <refreshRate>60</refreshRate>
+        <labels>false</labels>
+        <labelField>name</labelField>
+        <headingArrows>true</headingArrows>
+        <popUpConfig>
+            <title>{name}</title>
+            <fields>
+                <field name="name" alias="Name" visible="true"/>
+                <field name="dtg" alias="DTG (Z)" visible="true"/>
+                <field name="altitude" alias="Altitude (ft)" visible="true"/>
+                <field name="speed" alias="Speed (knots)" visible="true"/>
+                <field name="course" alias="Course (deg)" visible="true"/>
+                <field name="location" alias="Location" visible="true"/>
+            </fields>
+        </popUpConfig>
+    </trackGroup>
+    <trackGroup>
+        <name>JBFSA</name>
+        <label>Land Tracks</label>
+        <refreshRate>120</refreshRate>
+        <labels>true</labels>
+        <labelField>name</labelField>
+        <headingArrows>true</headingArrows>
+        <popUpConfig>
+            <title>{name}</title>
+            <fields>
+                <field name="name" alias="Name" visible="true"/>
+                <field name="dtg" alias="DTG (Z)" visible="true"/>
+                <field name="altitude" alias="Altitude (ft)" visible="true"/>
+                <field name="speed" alias="Speed (knots)" visible="true"/>
+                <field name="course" alias="Course (deg)" visible="true"/>
+                <field name="location" alias="Location" visible="true"/>
+            </fields>
+        </popUpConfig>
+    </trackGroup>
+    <trackGroup>
+        <name>JBFSAAIR</name>
+        <label>Air Tracks</label>
+        <refreshRate>120</refreshRate>
+        <labels>true</labels>
+        <labelField>name</labelField>
+        <headingArrows>true</headingArrows>
+        <popUpConfig>
+            <title>{name}</title>
+            <fields>
+                <field name="name" alias="Name" visible="true"/>
+                <field name="dtg" alias="DTG (Z)" visible="true"/>
+                <field name="altitude" alias="Altitude (ft)" visible="true"/>
+                <field name="speed" alias="Speed (knots)" visible="true"/>
+                <field name="course" alias="Course (deg)" visible="true"/>
+                <field name="location" alias="Location" visible="true"/>
+            </fields>
+        </popUpConfig>
+    </trackGroup>
+</configuration>

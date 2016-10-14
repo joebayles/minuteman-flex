@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<configuration>
+    <source>http://earthquake.usgs.gov/earthquakes/feed/atom/4.5/week</source>
+    <fields>
+        <field name="description" alias="Date"/>
+    </fields>
+    <titlefield>title</titlefield>
+    <linkfield>link</linkfield>
+    <refreshrate/>
+    <zoomscale>15000</zoomscale>
+    <symbols>
+        <picturemarkersymbol url="assets/images/i_rss.png"/>
+    </symbols>
+</configuration>

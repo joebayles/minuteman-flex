@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<configuration>
+    <zoomscale>50000</zoomscale>
+    <shareresults>false</shareresults>
+    <layers>
+        <layer>
+            <name>Name</name>
+            <url>http://server.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Unemployment_Rate/MapServer/2</url>
+            <expression>NAME = '[value]'</expression>
+            <textsearchlabel>County Name</textsearchlabel>
+            <titlefield>NAME</titlefield>
+            <fields>
+                <field name="NAME" alias="Name"/>
+                <field name="ST_ABBREV" alias="State Abbreviation"/>
+                <field name="LANDAREA" alias="Land Area in Square Miles"/>
+                <field name="TOTPOP_CY" alias="2012 Total Population (Esri)"/>
+            </fields>
+            <orderbyfields>TOTPOP_CY ASC</orderbyfields>
+        </layer>
+    </layers>
+</configuration>

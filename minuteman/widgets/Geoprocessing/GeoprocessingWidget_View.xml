@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<configuration>
+    <description/>
+    <taskurl>http://sampleserver6.arcgisonline.com/arcgis/rest/services/Elevation/ESRI_Elevation_World/GPServer/Viewshed</taskurl>
+    <helpurl>http://sampleserver6.arcgisonline.com/arcgis/rest/directories/arcgisoutput/Elevation/ESRI_Elevation_World_GPServer/Elevation_ESRI_Elevation_World/Viewshed.htm</helpurl>
+    <autosubmit>false</autosubmit>
+    <shareresults>false</shareresults>
+    <inputparams>
+        <param type="featurerecordset" name="Input_Observation_Point" geometrytype="point" mode="drawtool" required="true" visible="true" label="Input_Observation_Point">
+            <renderer type="simple">
+                <defaultsymbol type="simplemarker" alpha="1" color="0x3FAFDC" size="15">
+                    <outline color="0x000000" width="2"/>
+                </defaultsymbol>
+            </renderer>
+        </param>
+        <param type="linearunit" name="Viewshed_Distance" required="true" visible="true" label="Viewshed_Distance" defaultvalue="15000:Meters"/>
+    </inputparams>
+    <outputparams>
+        <param type="featurerecordset" name="Viewshed_Result" geometrytype="polygon" mode="drawtool" required="true" visible="true" label="Viewshed_Result">
+            <popup>
+                <fields>
+                    <field name="Id" label="Id" visible="true"/>
+                    <field name="grid_code" label="grid_code" visible="true"/>
+                    <field name="Shape_Length" label="Shape_Length" visible="true"/>
+                    <field name="Shape_Area" label="Shape_Area" visible="true"/>
+                </fields>
+                <medias/>
+                <showattachments>false</showattachments>
+                <showrelatedrecords>false</showrelatedrecords>
+            </popup>
+            <renderer type="simple">
+                <defaultsymbol type="simplefill" alpha="0.5" color="0x000000">
+                    <outline color="0x000000" width="2"/>
+                </defaultsymbol>
+            </renderer>
+        </param>
+    </outputparams>
+    <layerorder>Input_Observation_Point,Viewshed_Result</layerorder>
+</configuration>

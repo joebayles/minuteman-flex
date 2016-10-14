@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<configuration>
+  <!--
+        Refer to the doc below for valid HTML tags that can be used for the content
+        http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flashx/textLayout/conversion/TextConverter.html#TEXT_FIELD_HTML_FORMAT
+    -->
+  <width>380</width>
+  <height>275</height>
+  <content>
+    <![CDATA[ 
+<p></p>
+<p align='center'><br><font size='15' color='#FFFFFF'><b>National Guard</b></font></p>
+<p></p> 
+<p align='center'><br><font size='15' color='#FFFFFF'><b>Minuteman Viewer 3.3.1</b></font></p>
+<p align='center'><img src=''/></p>
+
+<span style='MARGIN: 30px 30px 30px 30px'>
+  
+<textformat>
+
+<!-- <p><font color='#FFFFFF'>Select the area you are responsible for managing:</font></a></p>
+<p><font color="#FFFFFF"><b>Entire City of Naperville</b></font></a></p> -->
+ 
+
+</textformat></span>]]>
+  </content>
+  <btnlabel>Continue</btnlabel>
+
+</configuration>
+
+<!--
+    See Splash widget tag reference at
+    http://links.esri.com/splashwidget
+-->

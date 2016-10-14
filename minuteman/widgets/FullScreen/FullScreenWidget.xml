@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<!--
+	Here you can set image url, image tooltip, map maxwidth, and map maxheight
+	separately for both normal and full screen display states
+-->
+
+<configuration>
+        <imageurlnormal>widgets\FullScreen\assets\images\fs.png</imageurlnormal>
+	<tooltipnormal>Enter Full Screen</tooltipnormal>
+	<maxwidthnormal></maxwidthnormal>
+	<maxheightnormal></maxheightnormal>
+	
+	<imageurlfullscreen>widgets\FullScreen\assets\images\fs_exit.png</imageurlfullscreen>
+	<tooltipfullscreen>Exit Full Screen</tooltipfullscreen>
+	<maxwidthfullscreen></maxwidthfullscreen>
+	<maxheightfullscreen></maxheightfullscreen>
+</configuration>

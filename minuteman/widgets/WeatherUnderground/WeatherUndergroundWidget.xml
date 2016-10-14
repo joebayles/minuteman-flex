@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--
+////////////////////////////////////////////////////////////////////////////////
+//
+// Developed by Robert Scheitlin
+//
+////////////////////////////////////////////////////////////////////////////////
+-->
+<configuration>
+	<autoclosemilliseconds>4000</autoclosemilliseconds><!-- 4 seconds -->
+	<apquery>http://api.wunderground.com/auto/wui/geo/WXCurrentObXML/index.xml?query=[value]</apquery>
+	<obquery>http://api.wunderground.com/auto/wui/geo/GeoLookupXML/index.xml?query=[value]</obquery>
+	<pwsquery>http://api.wunderground.com/weatherstation/WXCurrentObXML.asp?ID=[value]</pwsquery>
+	<forecastquery>http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=[value]</forecastquery>
+	<zoomscale>10000</zoomscale>
+	<!-- valid values are f for Fahrenheit and c for Celsius -->
+	<tempdefault>f</tempdefault>
+	<!-- enter either the zip code, airport code, or city and state to 
+	enter in the search textbox when widget is opened. -->
+	<defaultsearch>KBHM+KATL+KANB</defaultsearch>
+	<!-- if a defaultsearch value is entered do you want to automatically search for it? -->
+	<autosearchdefault>true</autosearchdefault>
+	<!-- if you do not want to allow the user to change the search then set to false. -->
+	<showsearchoption>true</showsearchoption>
+	<!-- if you want to show personal weather station observations by default. -->
+	<showpwsdefault>false</showpwsdefault>
+	<!-- if you want to show current temp at the observations along with the weather 
+	condition icon by default. -->
+	<showtempsdefault>true</showtempsdefault>
+	<labels>
+		<loadinglabel1>Retrieving List of Weather Stations...</loadinglabel1>
+		<loadinglabel2>Retrieving Airport Weather Observations...</loadinglabel2>
+		<loadinglabel3>Retrieving Personal Weather Station Observations...</loadinglabel3>
+		<zoomalllabel>Zoom</zoomalllabel>
+		<zoomalltip>Zoom to all results</zoomalltip>
+		<selectionlabel>Observations Selected:</selectionlabel>
+		<linkalias>View WeatherUnderground location details</linkalias>
+	</labels>
+</configuration>

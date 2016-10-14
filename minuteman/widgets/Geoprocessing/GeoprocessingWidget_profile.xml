@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<configuration>
+    <description/>
+    <taskurl>http://sampleserver2.arcgisonline.com/ArcGIS/rest/services/Elevation/ESRI_Elevation_World/GPServer/ProfileService</taskurl>
+    <helpurl>http:///sampleserver2a.arcgisonline.com/arcgisoutput/Elevation_ESRI_Elevation_World/ProfileService.htm</helpurl>
+    <autosubmit>false</autosubmit>
+    <inputparams>
+        <param type="featurerecordset" name="Input_Polylines" geometrytype="polyline" mode="drawtool" required="true" visible="true" label="Input Polylines">
+            <renderer type="simple">
+                <defaultsymbol type="simpleline" alpha="1">
+                    <outline color="0x000000" width="2"/>
+                </defaultsymbol>
+            </renderer>
+        </param>
+        <param type="long" name="Image_Width" required="true" visible="true" label="Image Width" defaultvalue="600"/>
+        <param type="long" name="Image_Height" required="true" visible="true" label="Image Height" defaultvalue="250"/>
+        <param type="boolean" name="Display_Segments" required="true" visible="true" label="Display Segments" defaultvalue="true"/>
+    </inputparams>
+    <outputparams>
+        <param type="featurerecordset" name="Output_Profiles" mode="drawtool" required="true" visible="true" label="Output Profiles"/>
+    </outputparams>
+    <layerorder>Input_Polylines,Output_Profiles</layerorder>
+</configuration>

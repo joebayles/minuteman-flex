@@ -1,0 +1,152 @@
+IMPORTANT-READ CAREFULLY
+
+Unless superseded by a signed license agreement between you and Esri, Esri is willing to license Products to you only if you accept all terms and conditions contained in this License Agreement. Please read the terms and conditions carefully. You may not use the Products until you have agreed to the terms and conditions of the License Agreement. If you do not agree to the terms and conditions as stated, click "I do not accept the license agreement" below; you may then request a refund of applicable fees paid.
+
+LICENSE AGREEMENT
+(E204 10/18/2012)
+
+This License Agreement is between you ("Licensee") and Environmental Systems Research Institute, Inc. ("Esri"), a California corporation with a place of business at 380 New York Street, Redlands, California 92373-8100 USA.
+
+ARTICLE 1-DEFINITIONS
+
+Definitions. The terms used are defined as follows:
+
+a.  "Authorization Code(s)" means any key, authorization number, enablement code, login credential, activation code, token, account user name and password, or other mechanism required for use of a Product.
+b.  "Beta" means any alpha, beta, or prerelease Product.
+c.  "Commercial Application Service Provider Use" or "Commercial ASP Use" means generating revenue by providing access to Software through a website or Internet web application that enables third parties to access and use a Licensee-developed application that uses Software, for example, by charging a subscription, service, or any other form of transaction fee or by generating more than incidental advertising revenue.
+d.  "Content" has the meaning provided in Addendum 3.
+e.  "Data" means any Esri or third-party digital dataset(s) including, but not limited to, geographic vector data, raster data reports, or associated tabular attributes, whether bundled with Software and Online Services or delivered independently.
+f.  "Deployment License" means a license that allows Licensee to sublicense select Software and associated Authorization Codes to third parties.
+g.  "Documentation" means all user reference documentation that is delivered with the Software.
+h.  "Online Services" means any Internet-based geospatial system, including applications and associated APIs, but excluding Data or Content, hosted by Esri or its licensors, for storing, managing, publishing, and using maps, data, and other information.
+i.  "Ordering Document(s)" means a sales quotation, purchase order, or other document identifying the Products that Licensee orders.
+j.  "Product(s)" means Software, Data, Online Services, and Documentation licensed under the terms of this License Agreement.
+k.  "Sample(s)" means sample code, sample applications, add-ons, or sample extensions of Products.
+l.  "Service Credit(s)" means a unit of exchange that is allocated with an Online Services subscription in an amount specified in the Ordering Document. Each Service Credit entitles Licensee to consume a set amount of Online Services, the amount varying depending on the Online Services being consumed. As Online Services are consumed, Service Credits are automatically debited from Licensee's account, up to the maximum number of Service Credits available. Additional Service Credits can be purchased as described in Addendum 3 (also available at http://www.esri.com/legal).
+m.  "Software" means all or any portion of Esri's proprietary software technology, excluding Data, accessed or downloaded from an Esri-authorized website or delivered on any media in any format including backups, updates, service packs, patches, hot fixes, or permitted merged copies.
+n.  "Term License" means a license or access provided for use of a Product for a limited time period ("Term") or on a subscription or transaction basis.
+
+ARTICLE 2-INTELLECTUAL PROPERTY RIGHTS AND RESERVATION OF OWNERSHIP
+
+Products are licensed, not sold. Esri and its licensors own Products and all copies, which are protected by United States and applicable international laws, treaties, and conventions regarding intellectual property and proprietary rights including trade secrets. Licensee agrees to use reasonable means to protect Products from unauthorized use, reproduction, distribution, or publication. Esri and its third-party licensors reserve all rights not specifically granted in this License Agreement including the right to change and improve Products.
+
+ARTICLE 3-GRANT OF LICENSE
+
+3.1 Grant of License. Esri grants to Licensee a personal, nonexclusive, nontransferable license solely to use the Products as set forth in the applicable Ordering Documents (i) for which the applicable license fees have been paid; (ii) for Licensee's own internal use; (iii) in accordance with this License Agreement and the configuration ordered by Licensee or as authorized by Esri or its authorized distributor; and (iv) for the applicable Term or, if no Term is applicable or identified, until terminated in accordance with Article 5. In addition to the Scope of Use in Article 4, Exhibit 1-Scope of Use (E300) applies to specific Products. Addendum 1, Addendum 2, Addendum 3, and Addendum 4 collectively comprise Exhibit 1-Scope of Use (E300) and are also available at http://www.esri.com/legal/software-license.
+
+a.  Software. Terms of use for specific Software products are set forth in Addendum 1, which is incorporated by reference.
+b.  Data. Data terms of use are set forth in Addendum 2, which is incorporated by reference.
+c.  Online Services. Terms of use for Online Services are set forth in Addendum 3, which is incorporated by reference.
+d.  Limited Use Programs. Terms of use for noncommercial, nonprofit, educational, or other limited-use programs are set forth in Addendum 4, which is incorporated by reference.
+
+3.2 Evaluation and Beta Licenses. Products acquired under an evaluation license or under a Beta program are intended for evaluation and testing purposes only and not for commercial use. Any such use is at Licensee's own risk, and the Products do not qualify for Esri or distributor maintenance.
+
+ARTICLE 4-SCOPE OF USE
+
+4.1 Permitted Uses
+
+a.  For Products delivered to Licensee, Licensee may
+
+1.  Install and store Products on electronic storage device(s);
+2.  Make archival copies and routine computer backups;
+3.  Install and use a newer version of Software concurrently with the version to be replaced during a reasonable transition period not to exceed six (6) months, provided that the deployment of either version does not exceed Licensee's licensed quantity; thereafter, Licensee shall not use more Software in the aggregate than Licensee's total licensed quantity;
+4.  Move the Software in the licensed configuration to a replacement computer; and
+5.  Distribute to third parties Software and any associated Authorization Codes required for use of a Deployment License.
+
+b.  Commercial Application Service Provider Use. Provided that Licensee (i) is a governmental or not-for-profit organization that operates a website or offers an Internet service on a cost recovery basis and not for profit or (ii) acquires a Commercial ASP Use subscription license, Licensee may use the Software for Commercial ASP Use. However, Licensee may not provide third parties with direct access to Esri Software so that the third parties may use the Software directly, develop their own GIS applications, or create their own solutions in conjunction with the Software.
+c.  Licensee may customize Software using any (i) macro or scripting language, (ii) published application programming interface (API), or (iii) source or object code libraries, but only to the extent that such customization is described in Documentation.
+d.  Licensee may use, copy, or prepare derivative works of Documentation supplied in digital format and thereafter reproduce, display, and redistribute the customized documentation only for Licensee's own internal use. Portions of Documentation supplied in digital format merged with other software and printed or digital documentation are subject to this License Agreement. Licensee shall include the following copyright attribution notice acknowledging the proprietary rights of Esri and its licensors: "Portions of this document include intellectual property of Esri and its licensors and are used herein under license. Copyright © [Licensee will insert the actual copyright date(s) from the source materials] Esri and its licensors. All rights reserved."
+e.  Font Components. While the software is running, Licensee may use its fonts to display and print content. Licensee may only (i) embed fonts in content as permitted by the embedding restrictions in the fonts and (ii) temporarily download them to a printer or other output device to print content.
+f.  Consultant or Contractor Access. Subject to Section 3.1, Esri grants Licensee the right to permit Licensee's consultants or contractors to use the Products exclusively for Licensee's benefit. Licensee shall be solely responsible for compliance by consultants and contractors with this License Agreement and shall ensure that the consultant or contractor discontinues Product use upon completion of work for Licensee. Access to or use of Products by consultants or contractors not exclusively for Licensee's benefit is prohibited.
+
+4.2 Uses Not Permitted. Except to the extent that applicable law prohibits or overrides these restrictions, or as provided herein, Licensee shall not
+
+a.  Sell, rent, lease, sublicense, lend, assign, or time-share Products;
+b.  Use for Commercial ASP Use or service bureau purposes;
+c.  Use Software, Data, or Documentation for a site or service and operate the site or service for profit or generate revenue through direct or indirect methods (e.g., advertising or by charging for access to the site or service);
+d.  Redistribute Software, Data, or Online Services to third parties, in whole or in part, including, but not limited to, extensions, components, or DLLs; or
+e.  Redistribute Authorization Codes;
+f.  Reverse engineer, decompile, or disassemble Products;
+g.  Make any attempt to circumvent the technological measure(s) that controls access to or use of Products;
+h.  Store, cache, use, upload, redistribute, or sublicense Content or otherwise use Products in violation of Esri's or a third party's rights, including intellectual property rights, privacy rights, nondiscrimination laws, or any other applicable law or government regulation;
+i.  Remove or obscure any Esri (or its licensors') patent, copyright, trademark, proprietary rights notices, and/or legends contained in or affixed to any Product, Product output, metadata file, or online and/or hard-copy attribution page of any Data or Documentation delivered hereunder;
+j.  Unbundle or independently use individual or component parts of Software, Online Services, or Data;
+k.  Incorporate any portion of the Software into a product or service that competes with the Software;
+l.  Publish the results of benchmark tests run on Beta without the prior written permission of Esri and its licensors; or
+m.  Use, incorporate, modify, distribute, provide access to, or combine any computer code provided with the Software in a manner that would subject such code or any part of the Software to open source license terms, which includes any license terms that require computer code to be (i) disclosed in source code form to third parties, (ii) licensed to third parties for the purpose of making derivative works, or (iii) redistributable to third parties at no charge.
+
+ARTICLE 5-TERM AND TERMINATION
+
+This License Agreement is effective upon acceptance. Licensee may terminate this License Agreement or any Product license at any time upon written notice to Esri. Either party may terminate this License Agreement or any license for a material breach that is not cured within ten (10) days of written notice to the breaching party, except that termination is immediate for a material breach that is impossible to cure. Upon termination of the License Agreement, all licenses granted hereunder terminate as well. Upon termination of a license or the License Agreement, Licensee will (i) stop accessing and using affected Product(s); (ii) clear any client-side data cache derived from Online Services; and (iii) uninstall, remove, and destroy all copies of affected Product(s) in Licensee's possession or control, including any modified or merged portions thereof, in any form, and execute and deliver evidence of such actions to Esri or its authorized distributor.
+
+ARTICLE 6-LIMITED WARRANTIES AND DISCLAIMERS
+
+6.1 Limited Warranties. Except as otherwise provided in this Article 6, Esri warrants for a period of ninety (90) days from the date Esri issues the Authorization Code enabling use of Software and Online Services that (i) the unmodified Software and Online Services will substantially conform to the published Documentation under normal use and service and (ii) media on which Software is provided will be free from defects in materials and workmanship.
+
+6.2 Special Disclaimer. CONTENT, DATA, SAMPLES, HOT FIXES, PATCHES, UPDATES, ONLINE SERVICES PROVIDED ON A NO-FEE BASIS, AND EVALUATION AND BETA SOFTWARE ARE DELIVERED "AS IS" WITHOUT WARRANTY OF ANY KIND.
+
+6.3 Internet Disclaimer. THE PARTIES EXPRESSLY ACKNOWLEDGE AND AGREE THAT THE INTERNET IS A NETWORK OF PRIVATE AND PUBLIC NETWORKS AND THAT (i) THE INTERNET IS NOT A SECURE INFRASTRUCTURE, (ii) THE PARTIES HAVE NO CONTROL OVER THE INTERNET, AND (iii) NONE OF THE PARTIES SHALL BE LIABLE FOR DAMAGES UNDER ANY THEORY OF LAW RELATED TO THE PERFORMANCE OR DISCONTINUANCE OF OPERATION OF ANY PORTION OF THE INTERNET OR POSSIBLE REGULATION OF THE INTERNET THAT MIGHT RESTRICT OR PROHIBIT THE OPERATION OF ONLINE SERVICES.
+
+6.4 General Disclaimer. EXCEPT FOR THE ABOVE EXPRESS LIMITED WARRANTIES, ESRI DISCLAIMS ALL OTHER WARRANTIES OR CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OR CONDITIONS OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, SYSTEM INTEGRATION, AND NONINFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS. ESRI DOES NOT WARRANT THAT PRODUCTS WILL MEET LICENSEE'S NEEDS; THAT LICENSEE'S OPERATION OF THE SAME WILL BE UNINTERRUPTED, ERROR FREE, FAULT-TOLERANT, OR FAIL-SAFE; OR THAT ALL NONCONFORMITIES CAN OR WILL BE CORRECTED. PRODUCTS ARE NOT DESIGNED, MANUFACTURED, OR INTENDED FOR USE IN ENVIRONMENTS OR APPLICATIONS THAT MAY LEAD TO DEATH, PERSONAL INJURY, OR PHYSICAL PROPERTY/ENVIRONMENTAL DAMAGE. ANY SUCH USE SHALL BE AT LICENSEE'S OWN RISK AND COST.
+
+6.5 Exclusive Remedy. Licensee's exclusive remedy and Esri's entire liability for breach of the limited warranties set forth in this Article 6 shall be limited, at Esri's sole discretion, to (i) replacement of any defective media; (ii) repair, correction, or a workaround for Software or Online Services subject to the Esri Maintenance Program or Licensee's authorized distributor's maintenance program, as applicable; or (iii) return of the license fees paid by Licensee for Software or Online Services that do not meet Esri's limited warranty, provided that Licensee uninstalls, removes, and destroys all copies of Software or Documentation; ceases using Online Services; and executes and delivers evidence of such actions to Esri or its authorized distributor.
+
+ARTICLE 7-LIMITATION OF LIABILITY
+
+7.1 Disclaimer of Certain Types of Liability. ESRI, ITS AUTHORIZED DISTRIBUTOR, AND ITS LICENSORS SHALL NOT BE LIABLE TO LICENSEE FOR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOST PROFITS, LOST SALES, OR BUSINESS EXPENDITURES; INVESTMENTS; BUSINESS COMMITMENTS; LOSS OF ANY GOODWILL; OR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR RELATED TO THIS LICENSE AGREEMENT OR USE OF PRODUCTS, HOWEVER CAUSED ON ANY THEORY OF LIABILITY, WHETHER OR NOT ESRI OR ITS LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+
+7.2 General Limitation of Liability. EXCEPT AS PROVIDED IN ARTICLE 8-INFRINGEMENT INDEMNITY, THE TOTAL CUMULATIVE LIABILITY OF ESRI AND ITS AUTHORIZED DISTRIBUTOR HEREUNDER, FROM ALL CAUSES OF ACTION OF ANY KIND, INCLUDING, BUT NOT LIMITED TO, CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, BREACH OF WARRANTY, MISREPRESENTATION, OR OTHERWISE, SHALL NOT EXCEED THE AMOUNTS PAID BY LICENSEE FOR THE PRODUCTS THAT GIVE RISE TO THE CAUSE OF ACTION.
+
+7.3 Applicability of Disclaimers and Limitations. Licensee agrees that the limitations of liability and disclaimers set forth in this License Agreement will apply regardless of whether Licensee has accepted Products or any other product or service delivered by Esri. The parties agree that Esri has set its fees and entered into this License Agreement in reliance on the disclaimers and limitations set forth herein, that the same reflect an allocation of risk between the parties, and that the same form an essential basis of the bargain between the parties. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+
+THE FOREGOING WARRANTIES, LIMITATIONS, AND EXCLUSIONS MAY NOT BE VALID IN SOME JURISDICTIONS AND APPLY ONLY TO THE EXTENT PERMITTED BY APPLICABLE LAW IN LICENSEE'S JURISDICTION. LICENSEE MAY HAVE ADDITIONAL RIGHTS UNDER LAW THAT MAY NOT BE WAIVED OR DISCLAIMED. ESRI DOES NOT SEEK TO LIMIT LICENSEE'S WARRANTY OR REMEDIES TO ANY EXTENT NOT PERMITTED BY LAW.
+
+ARTICLE 8-INFRINGEMENT INDEMNITY
+
+8.1 Esri shall defend, indemnify, and hold Licensee harmless from and against any loss, liability, cost, or expense, including reasonable attorneys' fees, that Licensee incurs as a result of any claims, actions, or demands by a third party alleging that Licensee's licensed use of Software or Online Services infringe a US patent, copyright, or trademark, provided
+
+a.  Licensee promptly notifies Esri in writing of the claim;
+b.  Licensee provides documents describing the allegations of infringement;
+c.  Esri has sole control of the defense of any action and negotiation related to the defense or settlement of any claim; and
+d.  Licensee reasonably cooperates in the defense of the claim at Esri's request and expense.
+
+8.2 If Software or Online Services are found to infringe a US patent, copyright, or trademark, Esri, at its own expense, may either (i) obtain rights for Licensee to continue using the Software or Online Services or (ii) modify the allegedly infringing elements of Software or Online Services while maintaining substantially similar functionality. If neither alternative is commercially reasonable, the license shall terminate, and Licensee shall cease accessing infringing Online Services and shall uninstall and return to Esri any infringing item(s). Esri's entire liability shall then be to indemnify Licensee pursuant to Section 8.1 and (i) refund the perpetual license fees paid by Licensee for the infringing items, prorated on a five (5)-year, straight-line depreciation basis beginning from the initial date of delivery, and (ii) for term licenses and maintenance, refund the unused portion of the fees paid.
+
+8.3 Esri shall have no obligation to defend Licensee or to pay any resultant costs, damages, or attorneys' fees for any claims or demands alleging direct or contributory infringement to the extent arising out of (i) the combination or integration of Software or Online Services with a product, process, or system not supplied by Esri or specified by Esri in its Documentation; (ii) material alteration of Software or Online Services by anyone other than Esri or its subcontractors; or (iii) use of Software or Online Services after modifications have been provided by Esri for avoiding infringement or use after a return is ordered by Esri under Section 8.2.
+
+8.4 THE FOREGOING STATES THE ENTIRE OBLIGATION OF ESRI WITH RESPECT TO INFRINGEMENT OR ALLEGATION OF INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS OF ANY THIRD PARTY.
+
+ARTICLE 9-GENERAL PROVISIONS
+
+9.1 Future Updates. New or updated Products and subscription renewals will be licensed under the then-current Esri license terms and conditions found at http://www.esri.com/legal/software-license.
+
+9.2 Export Control Regulations. Licensee expressly acknowledges and agrees that Licensee shall not export, reexport, import, transfer, or release Products, in whole or in part, to (i) any US embargoed country; (ii) any person on the US Treasury Department's list of Specially Designated Nationals; (iii) any person or entity on the US Commerce Department's Denied Persons List, Entity List, or Unverified List; or (iv) any person or entity or into any country where such export, reexport, or import violates any US, local, or other applicable import/export control laws or regulations including, but not limited to, the terms of any import/export license or license exemption and any amendments and supplemental additions to those import/
+export laws as they may occur from time to time.
+
+9.3 Taxes and Fees, Shipping Charges. License fees quoted to Licensee are exclusive of any and all taxes or fees, including, but not limited to, sales tax, use tax, value-added tax (VAT), customs, duties, or tariffs, and shipping and handling charges.
+
+9.4 No Implied Waivers. The failure of either party to enforce any provision of this License Agreement shall not be deemed a waiver of the provisions or of the right of such party thereafter to enforce that or any other provision.
+
+9.5 Severability. The parties agree that if any provision of this License Agreement is held to be unenforceable for any reason, such provision shall be reformed only to the extent necessary to make the intent of the language enforceable.
+
+9.6 Successor and Assigns. Licensee shall not assign, sublicense, or transfer Licensee's rights or delegate Licensee's obligations under this License Agreement without Esri's prior written consent, and any attempt to do so without consent shall be void. This License Agreement shall be binding on the respective successors and assigns of the parties to this License Agreement. Notwithstanding, a government contractor under contract to the government to deliver Products may assign this License Agreement and Products acquired for delivery to its government customer upon written notice to Esri, provided the government customer assents to the terms of this License Agreement.
+
+9.7 Survival of Terms. The provisions of Articles 2, 5, 6, 7, 8, and 9 of this License Agreement shall survive the expiration or termination of this License Agreement.
+
+9.8 Equitable Relief. Licensee agrees that any breach of this License Agreement by Licensee may cause irreparable damage and that, in the event of such breach, in addition to any and all remedies at law, Esri shall have the right to seek an injunction, specific performance, or other equitable relief in any court of competent jurisdiction without the requirement of posting a bond or proving injury as a condition for relief.
+
+9.9 US Government Licensee. The Products are commercial items, developed at private expense, provided to Licensee under this License Agreement. If Licensee is a US government entity or US government contractor, Esri licenses Products to Licensee in accordance with this License Agreement under FAR Subparts 12.211/12.212 or DFARS Subpart 227.7202. Esri Data and Online Services are licensed under the same subpart 227.7202 policy as commercial computer software for acquisitions made under DFARS. The commercial license rights in this License Agreement strictly govern Licensee's use, reproduction, or disclosure of Products. Esri Software source code is unpublished, and all rights to Products are reserved by Esri and its licensors. Licensee may transfer Software to any licensed government procuring agency facility to which computer(s) on which Software is installed are transferred. If any court, arbitrator, or board holds that Licensee has greater rights to any portion of Products under applicable public procurement law, such rights shall extend only to the portions affected.
+
+9.10 Governing Law, Arbitration
+
+a.  Licensees in the United States of America, Its Territories, and Outlying Areas. This License Agreement shall be governed by and construed in accordance with the laws of the State of California without reference to conflict of laws principles, except that US federal law shall govern in matters of intellectual property. Except as provided in Section 9.8, any dispute arising out of or relating to this License Agreement or the breach thereof that cannot be settled through negotiation shall be finally settled by arbitration administered by the American Arbitration Association under its Commercial Arbitration Rules. Judgment on the award rendered by the arbitrator may be entered in a court of competent jurisdiction. If Licensee is a US government agency, this License Agreement is subject to the Contract Disputes Act of 1978, as amended (41 USC 601–613), in lieu of the arbitration provisions of this clause. This License Agreement shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded.
+b.  All Other Licensees. Except as provided in Section 9.8, any dispute arising out of or relating to this License Agreement or the breach thereof that cannot be settled through negotiation shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one (1) arbitrator appointed in accordance with said rules. The language of the arbitration shall be English. The place of the arbitration shall be at an agreed-upon location. This License Agreement shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. Either party shall, at the request of the other, make available documents or witnesses relevant to the major aspects of the dispute.
+
+9.11 Maintenance. Maintenance for qualifying Software or Data consists of updates and other benefits, such as access to technical support, specified in Esri's or its distributor's current applicable maintenance policy.
+
+9.12 Feedback. Esri may freely use any feedback, suggestions, or requests for Product improvements that Licensee provides to Esri.
+
+9.13 Patents. Licensee may not seek, and may not permit any other user to seek, a patent or similar right worldwide that is based on or incorporates any Esri technology or services. This express prohibition on patenting shall not apply to Licensee's software and technology except to the extent that Esri technology or services, or any portion thereof, are a part of any claim or preferred embodiment in a patent application or a similar application.
+
+9.14 Entire Agreement. This License Agreement, including its incorporated documents, constitutes the sole and entire agreement of the parties as to the subject matter set forth herein and supersedes any previous license agreements, understandings, and arrangements between the parties relating to such subject matter. Additional or conflicting terms set forth in any purchase orders, invoices, or other standard form documents exchanged during the ordering process, other than product descriptions, quantities, pricing, and delivery instructions, are void and of no effect. Any modification(s) or amendment(s) to this License Agreement must be in writing and signed by each party.
+

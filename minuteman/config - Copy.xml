@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>National Guard</title>
+	<subtitle>Minuteman Viewer 3.3.1</subtitle>
+    <logo>assets/images/shield.png</logo>
+    <style>
+        <colors>0xffffff,0x333333,0x101010,0x0,0xffd700</colors>
+        <alpha>0.8</alpha>
+        <font name="Verdana"/>
+        <titlefont name="Verdana"/>
+        <subtitlefont name="Verdana"/>
+    </style>
+    <!-- replace the following url with your own geometryservice -->
+    <geometryservice url="https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer"/>
+    <widget url="widgets/Navigation/NavigationWidget.swf" config="widgets/Navigation/NavigationWidget.xml" left="10" top="100"/>
+    <widget url="widgets/OverviewMap/OverviewMapWidget.swf" config="widgets/OverviewMap/OverviewMapWidget.xml" right="0" bottom="0"/>
+    <widget url="widgets/eMapSwitcher/eMapSwitcherWidget.swf" config="widgets/eMapSwitcher/eMapSwitcherWidget.xml" right="20" top="55"/>
+    <widget url="widgets/HeaderController/HeaderControllerWidget.swf" config="widgets/HeaderController/HeaderControllerWidget.xml" left="0" top="0"/>
+    <widget url="widgets/Splash/SplashWidget.swf" config="widgets/Splash/SplashWidget.xml" label="Splash"/>
+    <map attributionvisible="true" esrilogovisible="true" openhandcursorvisible="false" scalebarvisible="true" scalebar="default" zoomslidervisible="false" wraparound180="true" addarcgisbasemaps="false" initialextent="-15579000 2801000 -6187000 6661000" wkid="102100" top="40" portalurl="http://www.arcgis.com">
+        <basemaps>
+            <layer type="tiled" label="Streets" icon="http://www.arcgis.com/sharing/rest/content/items/d8855ee4d3d74413babfb0f41203b168/info/thumbnail/tempstreets.jpg" url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" visible="true"/>
+            <layer type="tiled" label="Imagery" icon="http://www.arcgis.com/sharing/rest/content/items/86de95d4e0244cba80f0fa2c9403a7b2/info/thumbnail/tempimagery.jpg" url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" visible="false"/>
+            <layer type="tiled" label="Topographic" icon="http://www.arcgis.com/sharing/rest/content/items/6e03e8c26aad4b9c92a87c1063ddb0e3/info/thumbnail/topo_map_2.jpg" url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" visible="false"/>
+            <layer type="tiled" label="Light Gray Canvas" icon="http://www.arcgis.com/sharing/rest/content/items/8b3b470883a744aeb60e5fff0a319ce7/info/thumbnail/templight_gray_canvas_with_labels__ne_usa.png" url="http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer" visible="false"/>
+            <!-- <layer type="tiled" label="Light Gray Canvas Labels" url="http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer" visible="false" reference="true"/> -->
+        </basemaps>
+		<operationallayers>
+            <!-- <layer type="dynamic" label="World Traffic" icon="http://www.arcgis.com/sharing/rest/content/items/ff11eb5b930b4fabba15c47feb130de4/info/thumbnail/traffic_map.jpg" imageformat="png8" url="http://traffic.arcgis.com/arcgis/rest/services/World/Traffic/MapServer" visible="false"/> -->
+            <layer type="dynamic" label="NWS Storm Tracks" icon="http://www.arcgis.com/sharing/rest/content/items/5ae60fad60ca4a1e896c1037b51388fe/info/thumbnail/At_Storms.png" imageformat="png8" url="http://gis.srh.noaa.gov/ArcGIS/rest/services/AtStormViewer/MapServer" visible="true"/>
+            <layer type="dynamic" label="NOAA Temporal Hurricane Tracks" icon="http://www.arcgis.com/sharing/rest/content/items/d9b8b9a1b09b4038813954a1be7043cc/info/thumbnail/TemporalHurricanes.jpg" imageformat="png8" url="http://maps4.arcgisonline.com/ArcGIS/rest/services/A-16/NOAA_Hurricane_Tracks-Temporal/MapServer" visible="true"/>
+            <layer type="dynamic" label="US Graphical Forecast" imageformat="png8" url="http://gis.srh.noaa.gov/ArcGIS/rest/services/NDFDTemps/MapServer" visible="false"/>
+            <layer type="dynamic" label="Flood Outlook" icon="http://www.arcgis.com/sharing/rest/content/items/41525dd478a9409ba87524a433b644d8/info/thumbnail/Flood_outlook.png" imageformat="png8" url="http://gis.srh.noaa.gov/ArcGIS/rest/services/FOP/MapServer" visible="false"/>
+            <layer type="dynamic" label="Ep Storm Viewer" imageformat="png8" url="http://gis.srh.noaa.gov/ArcGIS/rest/services/EpStormViewer/MapServer" visible="false"/>
+            <layer type="dynamic" label="USGS Weather Alerts" imageformat="png8" url="http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/nhss_weat/MapServer" visible="false"/>
+            <layer type="dynamic" label="Stream Gauges" imageformat="png8" url="http://gis.srh.noaa.gov/arcgis/rest/services/ahps_gauges/MapServer" visible="false"/>
+            <layer type="dynamic" label="NWS Watches &amp; Warnings" url="http://gis.srh.noaa.gov/arcgis/rest/services/watchwarn/MapServer" mode="onDemand" visible="false"/>
+            <layer type="dynamic" label="FEMA 100-Year Flood Zones in the USA" imageformat="png8" url="http://maps3.arcgisonline.com/ArcGIS/rest/services/A-16/FEMA_100-Year_Flood_Zones_in_the_USA/MapServer" visible="false"/>
+            <layer type="dynamic" label="Natural Hazards" imageformat="png8" url="http://rmgsc.cr.usgs.gov/ArcGIS/rest/services/nhss_haz/MapServer" visible="false"/>
+            <layer type="dynamic" label="NGA US National Grid" imageformat="png8" url="http://maps1.arcgisonline.com/ArcGIS/rest/services/NGA_US_National_Grid/MapServer" visible="false"/>
+            <layer type="tiled" label="USA Population Density" url="http://server.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Population_Density/MapServer" visible="false"/>
+            <layer type="tiled" label="USA Social Vulnerability Index" url="http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Social_Vulnerability_Index/MapServer" visible="false"/>
+        </operationallayers>
+    </map>
+    <widgetcontainer layout="float">
+		
+		<widget label="Routing"
+				icon="assets/images/i_route.png"
+				config="widgets/Route/RouteWidget.xml"
+				url="widgets/Route/RouteWidget.swf" />
+		
+		<widgetgroup label="Weather"
+					 icon="assets/images/i_partlycloudy.png">
+			<!-- <widget label="Weather Underground"
+					icon="assets/images/i_partlycloudy.png"
+					config="widgets/WeatherUnderground/WeatherUndergroundWidget.xml"
+					url="widgets/WeatherUnderground/WeatherUndergroundWidget.swf" /> -->
+					
+			<widget label="WMSLooping"
+					icon="assets/images/widget.png"
+					config="widgets/WMSLooping/WMSLoopingWidget_1.xml"
+					url="widgets/WMSLooping/WMSLoopingWidget.swf" />
+		</widgetgroup>
+		
+		<widgetgroup label="Map Tools"
+					 icon="assets/images/GeoprocessingTool16.png">
+			<widget label="Elevation Profile Widget"
+					icon="widgets/ElevationProfile/images/i_widget.png"
+					config="widgets/ElevationProfile/ElevationProfileWidget.xml"
+					url="widgets/ElevationProfile/ElevationProfileWidget.swf"/>
+			
+			<widget label="Draw"
+					icon="assets/images/i_draw2.png"
+					config="widgets/Draw/DrawWidget.xml"
+					url="widgets/Draw/DrawWidget.swf" />
+					
+					
+			<widget label="Advanced Draw"
+					icon="assets/images/i_draw2.png"
+					config="widgets/AdvanceDraw/AdvanceDrawWidget_1.xml"
+					url="widgets/AdvanceDraw/AdvanceDrawWidget.swf" />
+					
+			<widget label="Search"
+					icon="assets/images/i_search.png"
+					config="widgets/Search/SearchWidget_2.xml"
+					url="widgets/Search/SearchWidget.swf"/>
+			
+			<widget label="Identify"
+					icon="assets/images/i_info.png"
+					config="widgets/Identify/IdentifyWidget_1.xml"
+					url="widgets/Identify/IdentifyWidget.swf" />
+					
+			<widget label="Print"
+					icon="assets/images/i_print.png"
+					config="widgets/Print/PrintWidget_1.xml"
+					url="widgets/Print/PrintWidget.swf" />
+			
+			<widget label="Bookmarks"
+					icon="assets/images/i_bookmark.png"
+					config="widgets/Bookmark/BookmarkWidget_1.xml"
+					url="widgets/Bookmark/BookmarkWidget.swf" />
+					
+			<widget label="National Grid"
+					icon="widgets/NationalGrid/assets/images/i_globe.png"
+					config="widgets/NationalGrid/NationalGridWidget.xml"
+					url="widgets/NationalGrid/NationalGridWidget.swf" />
+					
+			<widget label="Earthquakes (GeoRSS)"
+					icon="assets/images/i_rss.png"
+					config="widgets/GeoRSS/GeoRSSWidget_usgs_quake.xml"
+					url="widgets/GeoRSS/GeoRSSWidget.swf" />
+			
+			<widget label="Bomb Threat"
+					icon="assets/images/bomb.png"
+					config="widgets/BombThreat/BombThreatWidget_1.xml"
+					url="widgets/BombThreat/BombThreatWidget.swf" />
+					
+			<widget label="Layer List"
+					icon="assets/images/i_layers.png"
+					config="widgets/LayerList/LayerListWidget_1.xml"
+					url="widgets/LayerList/LayerListWidget.swf"
+					preload="open"
+					right="10" top="100" height="400"/>
+					
+			<widget label="Edit"
+					icon="assets/images/i_edit.png"
+					config="widgets/Edit/EditWidget_1.xml"
+					url="widgets/Edit/EditWidget.swf" />
+					
+			<widget label="Export Map"
+					icon="widgets/ExportMap/assets/images/i_exportmap.png"
+					config="widgets/ExportMap/exportMap.xml"
+					url="widgets/ExportMap/exportMap.swf"
+					preload="open"
+					left="100" top="55"/>
+					
+			<widget label="Full Screen"
+					icon="widgets/FullScreen/assets/images/fs.png"
+					config="widgets/FullScreen/FullScreenWidget.xml"
+					url="widgets/FullScreen/FullScreenWidget.swf"
+					preload="open"
+					left="50" top="55"/>
+					
+					
+		</widgetgroup>
+		
+        <widget url="widgets/SAGETracks/SAGETracksWidget.swf" config="widgets/SAGETracks/SAGETracksWidget_1.xml" label="SAGETracks" icon="assets/images/USNORTHCOM_40x40.png"/>
+        <widget url="widgets/Legend/LegendWidget.swf" config="widgets/Legend/LegendWidget_1.xml" label="Legend" icon="assets/images/Legend32.png"/>
+    </widgetcontainer>
+</configuration>

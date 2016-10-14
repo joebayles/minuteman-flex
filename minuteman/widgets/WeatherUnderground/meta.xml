@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" ?>
+<configuration>
+    <label>Weather Underground Widget</label>
+    <widgetversion>3.1</widgetversion>
+    <icon>assets/images/i_partlycloudy.png</icon>
+    <openbydefault>true</openbydefault>
+    <description>The Weather Underground Widget is a widget that querys and displays weather information including forcast, radar image and temps based on city and state, country, zip codeand airport code.</description>
+    <helpurl>http://www.arcgis.com/home/item.html?id=f6bf35d7e7dc4db697f9718fd1b2b53f</helpurl>
+</configuration>

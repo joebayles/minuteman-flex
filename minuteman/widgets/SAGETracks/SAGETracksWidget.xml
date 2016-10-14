@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<trackGroup>
+		<!-- SAGE track group name -->
+		<name>FFT</name>
+		<!-- Label that you want to see in the combo box in the widget -->
+		<label>Land and Air Tracks</label>
+		<!-- Refresh rate in seconds -->
+		<refreshRate>60</refreshRate>
+		<!-- Show labels on each track? -->
+		<labels>false</labels>
+		<!-- If showing labels, which field to label with -->
+		<labelField>name</labelField>
+		<!-- Show heading arrows? -->
+		<headingArrows>true</headingArrows>
+		<!-- Pop up config just like for standard ESRI popup widgets -->
+		<popUpConfig>
+			<title>{name}</title>
+			<fields>
+				<field name="name" alias="Name" visible="true"/>
+				<field name="dtg" alias="DTG (Z)" visible="true"/>
+				<field name="altitude" alias="Altitude (ft)" visible="true"/>
+				<field name="speed" alias="Speed (knots)" visible="true"/>
+				<field name="course" alias="Course (deg)" visible="true"/>
+				<field name="location" alias="Location" visible="true"/>
+			</fields>
+		</popUpConfig>
+	</trackGroup>
+
+	<trackGroup>
+		<!-- Name has to match with LSI track service -->
+		<name>JBFSA</name>
+		<!-- Label can be whatever you want to see in the combo box -->
+		<label>Land Tracks</label>
+		<!-- Refresh rate in seconds -->
+		<refreshRate>120</refreshRate>
+		<!-- Show labels? -->
+		<labels>true</labels>
+		<!-- If showing labels, which field to label with -->
+		<labelField>name</labelField>
+		<!-- Show heading arrows? -->
+		<headingArrows>true</headingArrows>
+		<!-- Pop up config just like for standard ESRI popup widgets -->
+		<popUpConfig>
+			<title>{name}</title>
+			<fields>
+				<field name="name" alias="Name" visible="true"/>
+				<field name="dtg" alias="DTG (Z)" visible="true"/>
+				<field name="altitude" alias="Altitude (ft)" visible="true"/>
+				<field name="speed" alias="Speed (knots)" visible="true"/>
+				<field name="course" alias="Course (deg)" visible="true"/>
+				<field name="location" alias="Location" visible="true"/>
+			</fields>
+		</popUpConfig>
+		
+	</trackGroup>
+		<trackGroup>
+		<!-- Name has to match with LSI track service -->
+		<name>JBFSAAIR</name>
+		<!-- Label can be whatever you want to see in the combo box -->
+		<label>Air Tracks</label>
+		<!-- Refresh rate in seconds -->
+		<refreshRate>120</refreshRate>
+		<!-- Show labels? -->
+		<labels>true</labels>
+		<!-- If showing labels, which field to label with -->
+		<labelField>name</labelField>
+		<!-- Show heading arrows? -->
+		<headingArrows>true</headingArrows>
+		<!-- Pop up config just like for standard ESRI popup widgets -->
+		<popUpConfig>
+			<title>{name}</title>
+			<fields>
+				<field name="name" alias="Name" visible="true"/>
+				<field name="dtg" alias="DTG (Z)" visible="true"/>
+				<field name="altitude" alias="Altitude (ft)" visible="true"/>
+				<field name="speed" alias="Speed (knots)" visible="true"/>
+				<field name="course" alias="Course (deg)" visible="true"/>
+				<field name="location" alias="Location" visible="true"/>
+			</fields>
+		</popUpConfig>
+	</trackGroup>
+	
+	
+</configuration>
